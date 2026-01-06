@@ -1,16 +1,12 @@
 # FinancialBotLLM
 ## RAG streamlit based Financial bot
 
-Welcome to the “Guided Live Project - Financial Bot with LLMs” module of the Applied GenAI:
-Advanced Training for Tech Professionals and Managers course. In the fast-paced financial sector,
-artificial intelligence is becoming essential for enhancing customer experience and data analysis.
 This module focuses on building a financial bot that leverages Large Language Models (LLMs),
-Vector Databases, and web scraping techniques. Learners will learn to build a responsive
+Vector Databases, and web scraping techniques to build a responsive
 financial chatbot capable of handling a variety of financial queries and providing real-time
 insights through efficient data retrieval mechanisms.
 
 ## Learning Objectives
-By the end of this module, you will:
 ● Understand and apply web scraping techniques to gather financial data.
 ● Integrate LLMs with VectorDB for optimized data querying and retrieval.
 ● Fine-tune LLMs for specialized financial queries to enhance response accuracy.
