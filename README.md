@@ -57,6 +57,11 @@ file.
 ● Fine-tune prompts to handle nuanced financial questions and visualize insights.
 
 ## Implementation and run instructions
+### Using Google Collab
+	1. .ipynb define the environment variable OPENAI_API_KEY
+	2. Run the Google collab notebook 
+
+### Using python file
 The solution is self-contained where you would need to run only one file fin_bot.py
 
 - Start by installing the dependencies by running
