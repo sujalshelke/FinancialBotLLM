@@ -1,0 +1,11 @@
+ langchain==0.3.11
+ openai==1.55.3 
+ langchain-community==0.3.11
+ langchainhub
+ langchain-chroma
+ bs4
+ langchain-openai==0.2.12
+ yfinance==0.2.50
+ gradio==3.38.0
+ gradio_client
+ lxml
