@@ -1,7 +1,7 @@
 # FinancialBotLLM
-## RAG streamlit based Financial bot
+## RAG Gradio based Financial knowledge bot
 
-This module focuses on building a financial bot that leverages Large Language Models (LLMs),
+This module focuses on building a financial knowledge bot that leverages Large Language Models (LLMs),
 Vector Databases, and web scraping techniques to build a responsive
 financial chatbot capable of handling a variety of financial queries and providing real-time
 insights through efficient data retrieval mechanisms.
@@ -10,7 +10,7 @@ insights through efficient data retrieval mechanisms.
 ● Understand and apply web scraping techniques to gather financial data.
 ● Integrate LLMs with VectorDB for optimized data querying and retrieval.
 ● Fine-tune LLMs for specialized financial queries to enhance response accuracy.
-● Develop an interactive, user-friendly interface with Streamlit to facilitate chatbot
+● Develop an interactive, user-friendly interface with Gradio to facilitate chatbot
 interactions.
 
 ## Milestones
@@ -36,10 +36,10 @@ contextual information.
 ○ Implementing RAG with financial data
 ○ Best practices for retrieval and generation
 
-4. Chatbot Development with Streamlit
-● Objective: Develop a chatbot interface in Streamlit with conversation memory
+4. Chatbot Development with Gradio
+● Objective: Develop a chatbot interface in Gradio with conversation memory
 and interactive capabilities.
-○ Building the Streamlit chat interface
+○ Building the Gradio chat interface
 ○ Integrating the LLM-based bot with VectorDB
 ○ Memory management for seamless user experience
 
@@ -65,6 +65,10 @@ file.
 The solution is self-contained where you would need to run only one file fin_bot.py
 
 - Start by installing the dependencies by running
-- > pip install -r requirements.txt
+- > python3 -m venv .venv
+> source .venv/bin/activate
+> pip install --upgrade pip
+> pip install -r requirements.txt
+> python3 -c "import fin_bot; print('fin_bot imported OK')"
 - Run the RAG application from the terminal by running 
 	> python3 fin_bot.py OPENAI_API_KEY THE_QUESTION
