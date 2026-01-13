@@ -60,15 +60,3 @@ file.
 ### Using Google Collab
 	1. .ipynb define the environment variable OPENAI_API_KEY
 	2. Run the Google collab notebook 
-
-### Using python file
-The solution is self-contained where you would need to run only one file fin_bot.py
-
-- Start by installing the dependencies by running
-- > python3 -m venv .venv
-> source .venv/bin/activate
-> pip install --upgrade pip
-> pip install -r requirements.txt
-> python3 -c "import fin_bot; print('fin_bot imported OK')"
-- Run the RAG application from the terminal by running 
-	> python3 fin_bot.py OPENAI_API_KEY THE_QUESTION
