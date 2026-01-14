@@ -47,7 +47,7 @@ This module focuses on building a financial knowledge bot that leverages Large L
 
 - Implement a web scraper for a financial website of your choice, storing results in a CSV file.
 - Set up a VectorDB, store embeddings, and test retrieval with a custom prompt.
-- Build and deploy a Streamlit-based chatbot for answering financial queries.
+- Build and deploy a gradio-based chatbot for answering financial queries.
 - Fine-tune prompts to handle nuanced financial questions and visualize insights.
 
 ## Implementation and Run Instructions
